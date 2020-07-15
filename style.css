@@ -1,0 +1,109 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-review, .second-review {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    opacity: 100%;
+}
+
+.review-headers {
+    display: flex;
+    width: max-content;
+    margin: 10px 0;
+}
+
+.review-title {
+    margin-right: 50px;
+}
+
+.review-controls {
+    margin-left: auto;
+    display: flex;
+}
+
+.review-controsl {
+    display: flex;
+}
+
+.control {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.5);
+    margin: 0 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-left {
+    margin-right: auto;
+}
+
+.stars {
+    display: flex;
+}
+
+.fa-star {
+    margin: 0 5px;
+}
+
+.review-info {
+    display: flex;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+
+.review-name {
+    font-size: 12px;
+    margin: 0 auto 0 0;
+}
+
+.review-date {
+    font-size: 12px;
+}
+
+.average {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.average-header {
+    text-align: center;
+    font-size: 12px;
+}
+
+.average-stats {
+    display: flex;
+}
+
+.average-stars {
+    display: flex;
+    margin-right: auto;
+}
+
+.average-star {
+    margin: 0 2px;
+    font-size: 10px;
+}
+
+.average-num-reviews {
+    font-size: 8px;
+    text-transform: uppercase;
+    margin: auto 0;
+}
+
+.average-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 5px;
+}

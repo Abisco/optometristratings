@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ratings Test</title>
+	<style>/* For setup only */
+		html, body {
+			height: 100vh;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			font-size: 12pt;
+		}
+	</style>
+
+</head>
+<body>
+
+<div id="main" class="main">
+    <div class="review-headers">
+        <div class="review-title">
+            Reviews
+        </div>
+        <div class="review-controls">
+            <div class="control control-left" onclick="previousReview()">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="control control-right" onclick="nextReview()">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+    <div id="reviews">
+        <div class="single-review" id="single-review">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="review-info">
+                <div class="review-name">
+                    - Coleen D.
+                </div>
+                <div class="review-date">
+                    1/14/2019
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="average">
+        <div class="average-header">
+            Google
+        </div>
+        <div class="average-stats">
+            <div class="average-stars" id="average-stars">
+                <i class="fas fa-star average-star"></i>
+                <i class="fas fa-star average-star"></i>
+                <i class="fas fa-star average-star"></i>
+                <i class="fas fa-star average-star"></i>
+                <i class="fas fa-star average-star"></i>
+            </div>
+            <div class="average-num-reviews" id="average-num-reviews">
+                10 REVIEWS
+            </div>
+        </div>
+        <a class="average-link" href="https://www.google.com/search?client=firefox-b-d&q=scarborough%20optometry&safe=active&sxsrf=ALeKk018mxHpSoouQnQ30eUBGbWVMtS67Q:1594424978533&npsic=0&rflfq=1&rlha=0&rllag=43797744,-79289150,3323&tbm=lcl&rldimm=14118928618788562638&lqi=ChVzY2FyYm9yb3VnaCBvcHRvbWV0cnlaIgoJb3B0b21ldHJ5IhVzY2FyYm9yb3VnaCBvcHRvbWV0cnk&ved=2ahUKEwjGmt3z78PqAhWqgnIEHYCfDesQvS4wAXoECAsQMQ&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#lrd=0x40574c0bdd698057:0xc3f082c603fd26ce,1,,,&rlfi=hd:;si:14118928618788562638,l,ChVzY2FyYm9yb3VnaCBvcHRvbWV0cnlaIgoJb3B0b21ldHJ5IhVzY2FyYm9yb3VnaCBvcHRvbWV0cnk;mv:[[43.8306611,-79.16061739999999],[43.717092,-79.3315781]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:2">
+            Read more reviews
+            <i class="fa fa-link" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div class="average">
+        <div class="average-header">
+            Rateabiz
+        </div>
+        <div class="average-stats">
+            <div class="average-stars" id="average-stars">
+                <i class="fas fa-star average-star"></i>
+                <i class="fas fa-star average-star"></i>
+                <i class="fas fa-star average-star"></i>
+                <i class="fas fa-star average-star"></i>
+                <i class="fas fa-star average-star"></i>
+            </div>
+            <div class="average-num-reviews" id="average-num-reviews">
+                22 REVIEWS
+            </div>
+        </div>
+        <a class="average-link" href="https://www.rateabiz.com/reviews/scarborough-optometry-scarborough-on/46b574db663bba2d3fbe436b267a2e41/summary">
+            Read more reviews
+            <i class="fa fa-link" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcLxjzBdk1g34kA2AcZqNTTUkwqyU7RW4&libraries=places"></script>
+
+<!-- END HERE -->
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha512-M+hXwltZ3+0nFQJiVke7pqXY7VdtWW2jVG31zrml+eteTP7im25FdwtLhIBTWkaHRQyPrhO2uy8glLMHZzhFog==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</body>
+</html>
